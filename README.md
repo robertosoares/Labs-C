@@ -11,13 +11,13 @@ Este espaço foi reservado para alocar alguns programinhas feitos para a faculda
 #include <locale.h>
 
 int main() {
-	//Seteando o idioma
+	//Setando o idioma
 	setLocale(LC_ALL, "Portuguese");
 
 	printf("Você já poderá utilizar acentos");
 }
 ```
->>Output Você já poderá utilizar acentos
+>Output> Você já poderá utilizar acentos
 
 
 ### Erros básicos, como corrigir
