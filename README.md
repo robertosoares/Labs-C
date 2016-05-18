@@ -1,11 +1,28 @@
-## Seja bem vindo a Labs-C
+# Seja bem vindo a Labs-C
 
 Este espaço foi reservado para alocar alguns programinhas feitos para a faculdade, tem de exemplificar alguns conceitos e usabilidade da linguagem C. 
 
 
-## Erros básicos, como corrigir
+### Uso de bibliotecas 
 
-### Errado
+#### Idioma português com acento
+```c
+//Biblioteca de idiomas
+#include <locale.h>
+
+int main() {
+	//Seteando o idioma
+	setLocale(LC_ALL, "Portuguese");
+
+	printf("Você já poderá utilizar acentos");
+}
+```
+>>Output Você já poderá utilizar acentos
+
+
+### Erros básicos, como corrigir
+
+#### Errado
 
 ```c
 int main() {	
@@ -16,7 +33,7 @@ int main() {
 
 [Error] ld returned 1 exit status //system deve ser escrito todo em minusculo.
 
-### Certo
+#### Certo
 ```c
 int main() {
 	system("PAUSE");
@@ -25,9 +42,9 @@ int main() {
 ```
 
 
-#Falando sobre vetores
+###Falando sobre vetores
 
-####Vetor - Buscar um valor dentro de um vetor
+#####Vetor - Buscar um valor dentro de um vetor
 1. Criar um vetor de 10 posições
 1. Solicitar ao usuário que povoe o vetor
 1. Solicitar ao usuário que busque um valor no vetor
@@ -71,7 +88,7 @@ int main() {
 }
 ```
 
-####Vetor - Achar o Maior e o Menor valor em um vetor utlizando 
+#####Vetor - Achar o Maior e o Menor valor em um vetor utlizando 
 ```c
 #include <stdio.h>
 #include <conio.h>
