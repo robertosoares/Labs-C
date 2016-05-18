@@ -1,5 +1,29 @@
-# Labs-C
-Labs em C - Faculdade
+## Seja bem vindo a Labs-C
+
+Este espaço foi reservado para alocar alguns programinhas feitos para a faculdade, tem de exemplificar alguns conceitos e usabilidade da linguagem C. 
+
+
+## Erros básicos, como corrigir
+
+### Errado
+
+```c
+int main() {	
+	System("PAUSE");
+	return 0;
+}
+```
+
+[Error] ld returned 1 exit status //system deve ser escrito todo em minusculo.
+
+### Certo
+```c
+int main() {
+	system("PAUSE");
+	return 0;
+}
+```
+
 
 #Falando sobre vetores
 
