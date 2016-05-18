@@ -46,17 +46,17 @@ int main() {
 
 Proposto o desenvolvimento de um programa utilizando apenas Switch e if para realizar as solicitações de um menu de operações com as seguintes regras
 
-1 Apresentar 3 valores em ordem crescente
-1 Apresentar 3 valores em ordem descrescente
-1 Apresentar apenas os valroes pares
-1 Arpesentar aprenas os valores ímpares
-1 Apresntar os valores positivos
-1 Apresentar os valroes negativos
-1 Apresentar o maior
-1 Apresentar o menor
-1 Teste de triângulo
-1 calcular o comprimento de x, a área de y e o volume de z		
-1 SAIR
+1. Apresentar 3 valores em ordem crescente
+1. Apresentar 3 valores em ordem descrescente
+1. Apresentar apenas os valroes pares
+1. Arpesentar aprenas os valores ímpares
+1. Apresntar os valores positivos
+1. Apresentar os valroes negativos
+1. Apresentar o maior
+1. Apresentar o menor
+1. Teste de triângulo
+1. calcular o comprimento de x, a área de y e o volume de z		
+1. SAIR
 
 
 
