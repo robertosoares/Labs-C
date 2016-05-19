@@ -159,19 +159,61 @@ void main()
 			} 						
 			break;
 		case 5:
-			printf("Apresntar os valores positivos");
+			printf("Os números positivos são \n\n");
+			if(x > 0) {
+    			printf("%d -", a);
+			}
+			if(x > 0) {
+    			printf("%d -", a);
+			}
+			if(x > 0) {
+    			printf("%d ", a);
+			}
+			
 			break;
 		case 6:
-			printf("Apresentar os valroes negativos");
+			printf("Os números negativos são \n\n");
+			if(x < 0) {
+    			printf("%d -", a);
+			}
+			if(x < 0) {
+    			printf("%d -", a);
+			}
+			if(x < 0) {
+    			printf("%d ", a);
+			}
 			break;
 		case 7:
-			printf("Apresentar o maior");
+			if(x > y && x > z) {
+        		printf("%d", x);
+    		}
+			else if(y>x && y>z) {
+	        		printf("%d", y);
+			} else {
+				printf("%d", z);
+			}
 			break;
 		case 8:
-			printf("Apresentar o menor");
+			if(x < y && x < z) {
+        		printf("%d", x);
+    		}
+			else if(y < x && y < z) {
+	        		printf("%d", y);
+			} else {
+				printf("%d", z);
+			}
 			break;
 		case 9:
-			printf("Teste de triângulo");
+			printf("Teste de triângulo \n\n");
+			if (x+y>z && x+z>y && y+z>x ) {
+				printf("formar um triangulo");
+			} else if(x+y==z && x+z==y && y+z==x) {
+				printf("triangulo eqüilátero");
+			} else if( x+y==z && x+z==y && y+z!=x ) {
+				printf( "triangulo Isóscelos" );
+			} else if ( x+y!=z && x+z!=y && y+z!=x ) {
+				printf("triangulo Escaleno");
+			}			
 			break;
 		case 10:
 			printf("calcular o comprimento de x, a área de y e o volume de z");
